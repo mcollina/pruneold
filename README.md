@@ -1,4 +1,4 @@
-# pruneold
+# pruneold&nbsp;&nbsp;[![Build Status](https://travis-ci.org/mcollina/pruneold.png)](https://travis-ci.org/mcollina/pruneold)
 
 Prune old files from a directory so that the folder maintains a max
 size.
