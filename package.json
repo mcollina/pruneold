@@ -1,6 +1,6 @@
 {
   "name": "pruneold",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Prune old files if the total size grows too much",
   "main": "pruneold.js",
   "scripts": {
