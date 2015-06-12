@@ -1,0 +1,32 @@
+{
+  "name": "pruneold",
+  "version": "0.0.1",
+  "description": "Prune old files if the total size grows too much",
+  "main": "pruneold.js",
+  "scripts": {
+    "test": "tape test.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcollina/pruneold.git"
+  },
+  "keywords": [
+    "prune",
+    "old",
+    "file",
+    "rimraf"
+  ],
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcollina/pruneold/issues"
+  },
+  "homepage": "https://github.com/mcollina/pruneold#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "rimraf": "^2.4.0"
+  }
+}
