@@ -11,6 +11,9 @@ function pruneold (dir, max, callback) {
   // synchronously
   var statCache = {}
 
+  // we need a full path, so resolve relative ones
+  dir = path.resolve(dir)
+
   glob(path.join(dir, '**/*'), {
     statCache: statCache,
 
